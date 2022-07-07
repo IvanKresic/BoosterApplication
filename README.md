@@ -6,3 +6,6 @@ NOTE: application is configured to run on localhost port 8080. Some applications
       to match current user localhost IP adress in order to work properly. 
       
 NOTE: Android application .apk file is provided in Git repository by name: "BoosterApp.apk"
+
+
+NOTE: This app is developed in short period of time, and this code should not be used in any production environment. Developing this application for production ready environment would require propper code architecture, project structure and optimization.  
