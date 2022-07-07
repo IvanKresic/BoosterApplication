@@ -1,0 +1,8 @@
+# BoosterApplication
+NOTE: for runnig node.js server side, it is needed to install express first (npm install express)
+
+NOTE: application is configured to run on localhost port 8080. Some applications can take this port (i.e. skype uses 8080), 
+      so it needs to be updated if problem. Also, in Android Studio in Api.kt class, localhost IP address needs to be configured 
+      to match current user localhost IP adress in order to work properly. 
+      
+NOTE: Android application .apk file is provided in Git repository by name: "BoosterApp.apk"
