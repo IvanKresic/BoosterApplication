@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Booster</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="move_map_to_select_vehicle_location">Move map to select your vehicle location</string>
+    <string name="next">NEXT</string>
+    <string name="cancel">CANCEL ORDER</string>
+    <string name="select_delivery_time_window">Select delivery time window</string>
+    <string name="select_payment_method">Select payment method</string>
+    <string name="order_a_boost">Order a Boost</string>
+    <string name="order_information">Order information</string>
+    <string name="delivery_time">Delivery time</string>
+    <string name="payment_type">Payment type</string>
+    <string name="vehicle_location">Vehicle location</string>
+    <string name="order_being_processed">Your boost order is received and is being processed!</string>
+    <string name="select_delivery_time_and_payment_method">Select delivery time and payment method</string>
+
+    <string-array name="delivery_time_windows">
+        <item>Morning</item>
+        <item>Afternoon</item>
+    </string-array>
+
+    <string-array name="payment_method">
+        <item>Visa</item>
+        <item>MasterCard</item>
+    </string-array>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

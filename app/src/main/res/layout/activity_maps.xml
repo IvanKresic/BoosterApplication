@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MapsActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        app:borderWidth="0dp"
+        app:tint="@color/colorPurple"
+        android:background="@drawable/circle_background"
+        android:src="@drawable/ic_round_menu"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_gravity="top|left"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        app:borderWidth="0dp"
+        app:tint="@color/colorPurple"
+        android:background="@drawable/circle_background"
+        android:src="@drawable/ic_round_help"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="top|right"
+        />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_anchor="@id/bottomSheet"/>
+
+    <include layout="@layout/bottom_sheet" />
+
+    <ImageView
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="-45dp"
+        android:visibility="gone"
+        android:src="@drawable/ic_gas_point"
+        android:layout_gravity="center"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/my_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        app:borderWidth="0dp"
+        app:tint="@color/colorPurple"
+        android:background="@drawable/circle_background"
+        android:src="@drawable/ic_my_location"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="135dp"
+        android:layout_gravity="bottom|right"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/map_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorWhite"
+        app:borderWidth="0dp"
+        app:tint="@color/colorPurple"
+        android:background="@drawable/circle_background"
+        android:src="@drawable/ic_layers"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="200dp"
+        app:layout_anchor="@+id/my_position"
+        app:layout_anchorGravity="bottom"
+        android:layout_gravity="bottom|right"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
